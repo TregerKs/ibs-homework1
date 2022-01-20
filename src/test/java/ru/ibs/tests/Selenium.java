@@ -22,8 +22,6 @@ public class Selenium {
         driver.manage().window().maximize();
     }
 
-
-
     @Test
     public void test() throws InterruptedException {
 
@@ -83,7 +81,7 @@ public class Selenium {
         checkText = driver.findElement(By.xpath("//h2[text()=\"Оперативно перезвоним\"]"));
         scrollToElementJs(checkText);
 
-        Assert.assertTrue("Страничка не загрузилась", checkText.isDisplayed());
+        Assert.assertTrue("Страничка не загрузилась вообще совсем", checkText.isDisplayed());
         Assert.assertEquals("Заголовок не совпал с ожидаемым", "Оперативно перезвоним\n" +
                 "для оформления полиса", checkText.getText());
 
