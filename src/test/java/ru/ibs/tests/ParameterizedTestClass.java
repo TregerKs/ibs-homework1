@@ -26,7 +26,7 @@ public class ParameterizedTestClass {
     @Parameterized.Parameters
     public static Collection<Object> data() {
         return Arrays.asList(new Object[][]{
-                {"Коля Коля Николай", " (936) 654-6555"},
+                {"Коля Колянчик Николай", " (936) 654-6555"},
                 {"Ыгорь", " (900) 000-6505"},
                 {"Степанида Аркапр", " (111) 654-6115"}
         });

@@ -25,7 +25,7 @@ public class Selenium {
     @Test
     public void test() throws InterruptedException {
 
-        //неявное ожидание
+        //не очень явное ожидание
 //        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //явное ожидание wait = new WebDriverWait(driver, 10, 1000);
